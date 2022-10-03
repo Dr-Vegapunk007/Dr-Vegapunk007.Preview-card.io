@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+p {
+  margin: 0;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+}
+.contain {
+  display: flex;
+  position: relative;
+  width: 550px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.info {
+  padding: 30px;
+}
+.title,
+.description,
+.old-price {
+  font: normal 500 10px Montserrat;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+}
+h1 {
+  font: normal 700 30px fraunces;
+  color: hsl(212, 21%, 14%);
+  line-height: 30px;
+}
+.description {
+  letter-spacing: normal;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.price {
+  font: normal 700 31px Fraunces;
+  color: hsl(158, 36%, 37%);
+  vertical-align: middle;
+}
+.old-price {
+  vertical-align: middle;
+  margin-left: 12px;
+  letter-spacing: normal;
+  font-size: 12px;
+  text-decoration-line: line-through;
+}
+button {
+  margin-top: 20px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font: normal 700 12px Montserrat;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: hsl(128, 44%, 20%);
+  cursor: pointer;
+}
+button:active {
+  background-color: hsl(158, 36%, 37%);
+}
+.svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop {
+  margin-left: 5px;
+}

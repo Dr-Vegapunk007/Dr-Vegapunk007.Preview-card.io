@@ -33,14 +33,14 @@
   <body>
     <div class="background">
       <main class="contain">
-        <img
-          src="/images/image-product-desktop.jpg"
-          srcset="
-            images/image-product-desktop.jpg,
-            images/image-product-mobile.jpg  376w
-          "
-          alt="perfume"
-        />
+        <picture>
+          <source
+            media="(max-width:376px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img src="/images/image-product-desktop.jpg" alt="perfume" />
+        </picture>
+
         <div class="info">
           <p class="title">PERFUME</p>
           <h1>Gabrielle Essence Eau De Parfum</h1>

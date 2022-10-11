@@ -26,7 +26,7 @@ p {
   border-radius: 10px;
   flex-shrink: inherit;
 }
-@media all and (max-width: 376px) {
+@media all and (max-width: 534px) {
   .contain {
     flex-direction: column;
     width: 335px;
@@ -37,7 +37,7 @@ img {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-@media all and (max-width: 376px) {
+@media all and (max-width: 534px) {
   img {
     width: 100%;
     height: auto;

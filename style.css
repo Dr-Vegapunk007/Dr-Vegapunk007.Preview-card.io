@@ -17,6 +17,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: hsl(30, 38%, 92%);
+  overflow:auto;
 }
 .contain {
   display: flex;
